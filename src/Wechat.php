@@ -2,6 +2,7 @@
 namespace zxf5115\Wechat;
 
 use zxf5115\Wechat\Common\Code;
+use zxf5115\Wechat\Common\Common;
 use zxf5115\Wechat\Common\WXBizDataCrypt;
 
 /**
@@ -128,7 +129,7 @@ class Wechat extends Common
     }
     catch(\Exception $e)
     {
-      self::local($e);
+      self::trace($e);
     }
   }
 
