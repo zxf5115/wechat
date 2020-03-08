@@ -3,3 +3,5 @@
 
 1. 发布配置文件
 php artisan vendor:publish
+
+2. 测试
